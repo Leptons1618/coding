@@ -125,16 +125,17 @@
 
 
 
-def setMatrixZeroes(matrix):
-    m = len(matrix)
-    n = len(matrix[0])
-    row = False
-    col = False
-    for i in range(m):
-        if matrix[i][j] == 0:
-            row = True
-    for i in range(n):
-        if matrix[i][j] == 0:
-            col = True
+# def setMatrixZeroes(matrix):
+#     m = len(matrix)
+#     n = len(matrix[0])
+#     row = False
+#     col = False
+#     for i in range(m):
+#         if matrix[i][j] == 0:
+#             row = True
+#     for i in range(n):
+#         if matrix[i][j] == 0:
+#             col = True
     
-    return matrix
+#     return matrix
+
